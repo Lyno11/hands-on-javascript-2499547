@@ -1,5 +1,5 @@
 figure {
-  margin: 0;
+  margin: 10px;
 }
 
 img {
@@ -24,4 +24,8 @@ img {
 
 .main-content {
   width: min(90vw, 80ch);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
