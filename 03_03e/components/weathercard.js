@@ -13,12 +13,12 @@ const weatherCard = (data) => {
     <article class="weathercard">
           <div class="weathercard__meta">
             <div class="weathercard__meta-location">${data.name}, ${
-    data.sys.country
-  }</div>
+              data.sys.country
+            }</div>
           </div>
           <div class="weathercard__temp">
             <span class="temp">${tempTranslator(data.main.temp).c.toFixed(
-              1
+              1,
             )}</span><span class="tempunit">°C</span>
           </div>
           <div class="weathercard__wind">
